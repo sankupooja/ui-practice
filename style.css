@@ -1,1 +1,104 @@
+body{
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#f4f4f4;
+    color:black;
+}
 
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+main {
+    padding: 2rem;
+}
+
+.logo {
+    font-weight: bold;
+    font-size:1.2rem;
+}
+
+nav ul{
+    list-style: none;
+    border:0;
+    padding:0;
+    display: flex;
+}
+
+nav li{
+    margin-left:20px;
+}
+
+.hero {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero button {
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+    background-color:#fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section input,.form-section textarea
+{
+    padding:0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section button {
+    background-color: rgb(38, 66, 222);
+    color:white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
